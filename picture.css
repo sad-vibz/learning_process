@@ -1,0 +1,580 @@
+.img_1{
+    width: 500px;
+    height: 400px;
+    border-radius: 25px;
+    object-fit: cover;
+    display: block;
+}
+
+textarea{
+    display: block;
+    margin-bottom: 15px;
+}
+
+.search{
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid;
+    margin-bottom: 20px;
+}
+
+#img_gg{
+    width: 200px;
+    height: 100px;
+    display: block;
+    margin: 0 auto;
+}
+
+#engine{
+    padding: 15px;
+    width: 500px;
+    border-radius: 25px;
+    border: none;
+    /* border: .5px solid ; */
+    box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.257);
+    margin: 0 auto;
+    display: block;
+    transition: 200ms;
+    font-size: 16px;
+}
+
+#engine:focus{
+    outline: none;
+    padding: 17px;
+}
+
+#gs{
+    margin: 0;
+    padding: 0;
+    width: 250px;
+    height: 50px;
+    display: inline-block;
+    margin-left: 505px;
+    margin-right: 5px;
+    margin-top: 20px;
+    background-color: rgb(209, 209, 209);
+}
+
+.div_1{
+    display: flex;
+    justify-content: space-between;
+    /* border: solid; */
+    max-width: 800px;
+}
+
+p{
+    flex-wrap: wrap;
+    flex-grow: 1;
+    align-content: center;
+    font-size: 20px;
+    margin-left: 25px;
+}
+
+.oneri{
+    width: 100px;
+    border-radius: 50px;
+}
+
+.tweet{
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    border: none;
+    background-color: rgb(55, 122, 255);
+    align-self: center;
+    font-weight: 600;
+    font-size: larger;
+    color: whitesmoke;
+}
+
+.div_2{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    max-width: 25vw;
+    gap: 10px;
+}
+
+.feedback{
+    display: flex;
+    /* border: solid; */
+    max-width: 50vw;
+}
+
+.feedback p{
+    max-width: 250px;
+}
+
+.feedback button{
+    width: 100px;
+    height: 30px;
+    align-self: center;
+    margin-right: 10px;
+}
+
+#yes{
+    margin-left: 100px;
+}
+
+
+.name_list{
+    display: flex;
+    max-width: 50vw;
+    flex-wrap: wrap;
+}
+
+.name_list input, button{
+    width: 250px;
+    height: 50px;
+    margin-top: 10px;
+    border: none;
+    box-shadow: 0px 2px 50px rgba(0, 0, 0, 0.177);
+}
+
+.gmail{
+    min-width: 99.3%;
+    border-radius: 15px;
+    border: none;
+}
+
+.f_name{
+    min-width: 48%;
+    border-radius: 15px;
+    border: none;
+    margin-right: 10px;
+}
+.s_name{
+    min-width: 49.25%;
+    border-radius: 15px;
+    border: none;
+}
+
+.Submit{
+    border-radius: 25px;
+    margin: 0 auto;
+    margin-top: 10px;
+    border: none;
+    background-color: rgb(43, 93, 244);
+    color: aliceblue;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.ride_request{
+    display: flex;
+    justify-content: space-between;
+    max-width:50vw;
+    flex-wrap: wrap;
+}
+
+.ride_request input{
+    width: 50vw;
+    height: 50px;
+    margin-top: 20px;
+    padding-left:23px;
+    border: none;
+    box-shadow: 0px 6px 20px rgba(128, 128, 128, 0.221);
+    background-color: rgba(120, 120, 120, 0.1);
+    outline: none;
+}
+
+.ride_request button{
+    background-color: aqua;
+    border-radius: 10px;
+}
+
+#req{
+    background-color: black;
+    color: whitesmoke;
+}
+
+#sch{
+    background-color: rgb(212, 212, 212);
+}
+
+.square{
+    margin-top: 50px;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(255, 0, 0);
+}
+
+.circle{
+    margin-top: 50px;
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    border-radius: 100px;
+}
+
+.yt_music{
+    display: inline-block;
+    margin: 0;
+    background-color: black;
+    color: aliceblue;
+}
+
+.yt_music p,h2{
+    margin: 0;
+    margin-bottom: 20px;
+    padding: 0px 18px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.yt_music p{
+    color: rgb(187, 187, 187);
+    font-weight: 10;
+    font-size: 16px;
+    width: 320px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.yt_music h2{
+    margin-top: 20px;
+}
+
+.friends{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.friends div{
+    box-shadow: 0px 3px 5px rgba(128, 128, 128, 0.704);
+    transition: 200ms;
+}
+
+.friends div:hover{
+    transform: scale(103%);
+}
+
+.friends p,h3{
+    margin-left: 10px;
+}
+
+.friends img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    transition: 200ms;
+}
+
+.friends img:hover{
+    transform: scale(103%);
+}
+
+.friends button{
+    color: aliceblue;
+    background-color: rgb(0, 133, 250);
+    font-weight: 500px;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    display: block;
+    padding: 15px 40px;
+    border-radius: 6px;
+    width: fit-content;
+    height: fit-content;
+    cursor: pointer;
+    transition: 200ms;
+}
+
+.friends button:hover{
+    color: rgb(0, 133, 250);
+    background-color: rgb(135, 199, 255);
+    transform: scale(95%);
+}
+
+.layout_outline{
+    display: flex;
+    width: 50%;
+    margin-top: 50px;
+}
+
+.cat{
+    width: 50px;
+    height: 50px;
+    margin-top: 10px;
+    img{
+        width: 100%;
+        height: 100%;
+        border-radius: 40px;
+        object-fit: cover;
+    }
+}
+
+.layout_outline p, .layout_outline h3{
+    margin: 0;
+    margin-left: 23px;
+}
+
+.layout_outline p{
+    font-size: 16px;
+    color: rgb(110, 110, 110);
+}
+
+.name_para{
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+
+.follow button{
+    background-color: rgb(0, 98, 255);
+    border-radius: 15px;
+    width: 100px;
+    height:35px;
+    font-weight: bold;
+    color: aliceblue;  
+    transition: 200ms; 
+}
+
+.follow button:hover{
+    transform: scale(103%);
+}
+
+body{
+    cursor: auto;
+    padding-bottom: 500px;
+}
+
+.grid_1{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.px200{
+    text-align: center;
+    background-color: pink;
+}
+.px75{
+    text-align: center;
+    background-color: rgb(171, 246, 246);
+}
+
+.grid_2{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+.col1{
+    background-color: antiquewhite;
+}
+
+.col2{
+    background-color: rgb(238, 215, 250);
+}
+
+.col3{
+    background-color: antiquewhite;
+}
+
+.grid_3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 10px;
+    margin-top: 10px;
+}
+
+.grid_3 div{
+    background-color: antiquewhite;
+    text-align: center;
+}
+
+.header{
+    margin-top: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: rgb(120, 82, 178);
+    border-radius: 4px;
+}
+
+.left{
+    color: aliceblue;
+    font-weight: 900;
+}
+
+.middle input{
+
+    width: 500px;
+    border: none;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    height: 30px;
+    border-radius:20px;
+    padding-left: 20px;
+
+}
+
+.right button{
+    background-color: rgb(120, 82, 178);
+    color: white;
+    font-size: 16px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 11.5px;
+}
+
+.grid_4{
+    margin-top: 15px;
+    width: 50%;
+    height: 100px;
+    display: flex;
+    border: 5px solid rgb(68, 168, 255);
+}
+
+.pink{
+    display: flex;
+    flex: 1;
+    background-color: pink;
+    justify-content: center;
+}
+.pink .item_1{
+    background-color: black;
+    color: whitesmoke;
+    align-self: center;
+
+}
+
+.lightblue{
+    flex: 2;
+    background-color: lightblue;
+}
+
+
+.grid_5{
+    display: flex;
+    height: 100px;
+    margin-top: 20px;
+}
+
+.grid_5 .lightblue{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+}
+
+.grid_5 .lightblue .row_2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.row_2 .rows{
+    background-color: black;
+    color: whitesmoke;
+}
+
+.message_1 .dp{
+    width: 50px;
+    height: 50px;
+}
+
+.message_1 img{
+    width: 95%;
+    height: 95%;
+    object-fit: cover;
+    border-radius: 100px;
+    margin-top: 10px;
+}
+
+/* .message_2 .dp{
+    width: 100px;
+    height: 100px;
+}
+
+.message_2 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover
+}
+
+.message_3 .dp{
+    width: 100px;
+    height: 100px;
+}
+
+.message_3 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover
+} */
+
+.inbox{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* border: 1px solid; */
+    box-shadow: 0px 0px 5px rgba(62, 62, 62, 0.299);
+    border-radius: 6px;
+    max-width: 25%;
+    padding: 10px 5px 28px 12px;
+    margin-top: 25px;
+}
+
+.inbox .heading{
+    color: rgb(105, 105, 105);
+}
+
+.messages{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.message_1{
+    display: flex;
+}
+
+.mes{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2px;
+    margin-left: 5px;
+}
+
+.message_1 .tit_tim{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tit_tim .title_1{
+    font-family: Arial;
+    font-weight: 800;
+    margin-bottom: 0;
+}
+
+.tit_tim .time{
+    color: rgb(92, 92, 92);
+}
+
+.mes .sub{
+    margin: 0;
+    font-weight: bolder;
+    /* font-size: 10px; */
+}
+
+.mes .in{
+    color: rgb(92, 92, 92);
+}
+
+.position{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background-color: rgb(0, 175, 79);
+    width: 100px;
+}
+
